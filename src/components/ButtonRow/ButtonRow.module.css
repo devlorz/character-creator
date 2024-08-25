@@ -1,2 +1,13 @@
+:root {
+  --offset: 22px;
+  --offset_neg: -22px;
+}
+
 .buttonRow {
+  overflow: auto;
+  white-space: nowrap;
+  margin-left: var(--offset_neg);
+  margin-right: var(--offset_neg);
+  margin-bottom: var(--offset_neg);
+  padding: var(--offset);
 }
